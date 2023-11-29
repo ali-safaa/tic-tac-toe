@@ -1,0 +1,61 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+.container {
+     display: grid;
+     justify-content: center;
+     align-items: center;
+     margin: 0 auto;
+}
+
+.boxes {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     column-gap: 10px;
+     row-gap: 10px;
+     margin: 20px 0;
+}
+
+.box {
+     background-color: rgb(235, 231, 231);
+     width: 200px;
+     height: 200px;
+}
+
+.title {
+     text-align: center;
+     margin-top: 10px;
+}
+
+button {
+     border: none;
+     width: fit-content;
+     padding: 10px 50px;
+     cursor: pointer;
+     margin: 10px auto;
+     display: grid;
+     align-items: center;
+     justify-content: center;
+}
+
+.x-turn {
+     color: rgb(73, 73, 199);
+     font-size: 120px;
+     margin-top: 20px;
+     text-align: center;
+}
+
+.o-turn {
+     color: rgb(205, 65, 65);
+     font-size: 120px;
+     margin-top: 20px;
+     text-align: center;
+}
+
+.winner-player {
+     text-align: center;
+     margin-top: 100px;
+     font-size: 50px;
+}
